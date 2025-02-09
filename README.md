@@ -1,7 +1,5 @@
 # 🌐ALCABAA - MERN Stack Ecommerce Website 
 
-![ALCABAA Logo](public/logo.png)
-
 ## 🚀 Introduction
 ALCABAA is a fully responsive **MERN Stack Ecommerce Website** that offers seamless shopping experiences with modern UI/UX. The website supports user authentication, product filtering, cart management, admin controls, and secure checkout using QR-based UPI payments. 
 
