@@ -78,15 +78,18 @@ ALCABAA is a fully responsive **MERN Stack Ecommerce Website** that offers seaml
   ├── controllers/
   │   ├── cartController.js        # Handles cart functionalities
   │   ├── imageController.js       # Handles image uploads and retrieval
-  │   └── productController.js     # Handles product operations
+  │   ├── productController.js     # Handles product operations
+  │   └── profileController.js     # Handles user profile details
   ├── models/                      
   │   ├── Cart.js                  # Schema for cart items
-  │   ├── Product.js               # Schema for products 
+  │   ├── Product.js               # Schema for products
+  │   ├── Profile.js               # Schema for user profile
   │   └── SaleImage.js             # Schema for sale images
   ├── routes/
   │   ├── cartRoutes.js            # Routes for cart operations
   │   ├── imageRoutes.js           # Routes for sale image operations
-  │   └── productRoutes.js         # Routes for product operations
+  │   ├── productRoutes.js         # Routes for product operations
+  │   └── profiletRoutes.js        # Routes for user profile operations
   ├── package-lock.json 
   ├── package.json
   └── server.js                    # Entry point for the backend server
