@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 const imageRoutes = require("./routes/imageRoutes");
 const productRoutes = require("./routes/productRoutes");
 const cartRoutes = require("./routes/cartRoutes");
+const profileRoutes = require("./routes/profileRoutes"); // Add this line
 
 dotenv.config();
 
@@ -21,6 +22,7 @@ mongoose
 app.use("/api/images", imageRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/cart", cartRoutes);
+app.use("/api/profile", profileRoutes); // Add this line
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on PORT:${PORT}`));
